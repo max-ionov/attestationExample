@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+
+            <listBibl xml:id="References">
+               <bibl xml:id="Exon_Th" type="corpus">
+                  <title>Codex Exoniensis</title>
+                  <note type="description" xml:lang="en">A collection of Anglo-Saxon poetry from a MS. in the library of the Dean and Chapter of Exeter by Benjamin Thorpe, London, 1842.
+										Quoted at first by folio and by page and line, later by page and line</note>
+                </bibl>
+								<bibl xml:id="Beo_Th" type="corpus">
+									 <title>The Anglo-Saxon Poems of Beowulf</title>
+									 <editor>Benjamin Thorpe</editor>
+									 <placeName>Oxford</placeName>
+									 <date>1855</date>
+								 </bibl>
+						 </listBibl>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+					<entry>
+	 					<form>
+					  	<orth>geár-dagas</orth>
+	 					</form>
+						<gramGrp>
+							<number>pl.</number>
+							<gen>m.</gen>
+						</gramGrp>
+						<etym>[geár, dæg]</etym>
+						<sense>
+							<def>YORE-DAYS, days of yore, days of years, time of life; <cit type="translation" xml:lang="la"><q>dies antīqui, annōrum dies</q></cit></def>
+							<cit type="example">
+								<quote>In [on] geardagum <cit type="translation" xml:lang="en"><quote>in days of yore</quote></cit></quote>
+								<bibl source="Exon_Th">Exon.11 b</bibl>
+								<bibl>Th. 16, 11</bibl>
+								<bibl>Cri. 251 : 77 a</bibl>
+								<bibl>Th. 289, 6</bibl>
+								<bibl> Wand. 44 </bibl>
+								<bibl>Cd. 21</bibl>
+								<bibl>Th. 287, 16</bibl>
+								<bibl>Sat. 368</bibl>
+								<bibl source="Beo_Th">Beo. Th. 2</bibl>
+								<bibl> B. 1 : 2712</bibl>
+								<bibl>B. 1354 : 4458</bibl>
+								<bibl>B. 2233</bibl>
+							</cit>
+							<cit type="example"><quote>In geárdagan</quote><bibl>Menol Fox 231</bibl><bibl>Men. 117.</bibl></cit>
+							<cit type="example"><quote>Úre geárdagas </quote><bibl>Ps. Th. 89, 10</bibl></cit>
+							<cit type="example"><quote>Scyle gumena gehwylc on his geárdagum georne biþencan	<cit type="translation" xml:lang ="en">
+								<quote>every man should in the days of his years well consider</quote></cit></quote>
+								<bibl source ="Exon_Th">Exon.19 b</bibl>
+								<bibl>Th. 51, 26</bibl>
+								<bibl>Cri. 822 : 61 a</bibl>
+								<bibl>	Th. 225, 4; </bibl>
+								<bibl>Ph. 384</bibl>
+								<bibl>Elen. Grm. 1267 </bibl>
+								<bibl>L. Eth. vii. 24</bibl>
+								<bibl>Th. i. 334, 21. </bibl>
+							</cit>
+							[Icel. í árdaga in days of yore. Cf. Gen. 47, 9, The days of the years of my pilgrimage are an hundred and thirty years.']
+						</sense>
+					</entry>
+      </body>
+  </text>
+</TEI>
