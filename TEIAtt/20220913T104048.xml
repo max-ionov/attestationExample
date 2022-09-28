@@ -24,6 +24,15 @@
 									 <placeName>Oxford</placeName>
 									 <date>1855</date>
 								 </bibl>
+								 <bibl xml:id="Men" type ="corpus">
+									 <title>Menologium</title>
+								</bibl>
+								<bibl xml:id="Men_Fox" type ="corpus">
+									<title>Menologium seu Calendarium Poeticum, ex Hickesiano Thesauro</title>
+									<editor>S. Fox</editor>
+									<placeName>London</placeName>
+									<date>1830</date>
+							 </bibl>
 						 </listBibl>
          </sourceDesc>
       </fileDesc>
