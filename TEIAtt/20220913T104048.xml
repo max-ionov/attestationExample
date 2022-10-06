@@ -81,7 +81,7 @@
 								<bibl>B. 2233</bibl>
 							</cit>
 							<cit type="example"><quote>In geárdagan</quote><bibl source="Men_Fox">Menol Fox 231</bibl><bibl source="Men">Men. 117.</bibl></cit>
-							<cit type="example"><quote>Úre geárdagas </quote><bibl>Ps. Th. 89, 10</bibl></cit>
+							<cit type="example"><quote>Úre geárdagas <cit type="translation" xml:lang="la"><q>dies annorum nostrorum</q></cit></quote><bibl>Ps. Th. 89, 10</bibl></cit>
 							<cit type="example"><quote>Scyle gumena gehwylc on his geárdagum georne biþencan	<cit type="translation" xml:lang ="en">
 								<quote>every man should in the days of his years well consider</quote></cit></quote></cit>
 							<cit type="example"><bibl source ="Exon_Th">Exon.19 b</bibl></cit>
