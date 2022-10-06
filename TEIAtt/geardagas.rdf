@@ -1,0 +1,92 @@
+@prefix : <http://www.semanticweb.org/fahadkhan/ontologies/2022/8/geardagas_entry> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix frac: <http://www.w3.org/ns/lemon/frac#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@base <http://www.semanticweb.org/fahadkhan/ontologies/2022/8/geardagas_entry> .
+
+
+<http://www.semanticweb.org/fahadkhan/ontologies/2022/8/geardagas_entry> rdf:type owl:Ontology ;
+                                                                          owl:imports <http://www.lexinfo.net/ontology/3.0/lexinfo> ,
+                                                                                      <http://www.w3.org/ns/lemon/ontolex> ,
+                                                                                      <http://www.w3.org/ns/lemon/frac#> .
+
+
+###  Main Entry
+:geardagas_entry rdf:type ontolex:Word ;
+				lexinfo:partOfSpeech lexinfo:commonNoun ;
+				lexinfo:gender lexinfo:masculine ;
+				lexinfo:number lexinfo:plural ; 
+				frac:attestation :Th_16_11b, :Cri_257, :Th_289_6, :Wand_44, :Th_287_16, :Beo_Th, :Exon_19_b; 
+                ontolex:sense :geardagas_sense .
+
+
+:geardagas_sense rdf:type ontolex:LexicalSense ; 
+				dc:description "YORE-DAYS, days of yore, days of years, time of life; dies antiqui, annorum dies"@en.
+
+
+:geardagum_component rdf:type owl:NamedIndividual , ontolex:Component ;
+                     <http://www.w3.org/ns/lemon/decomp#correspondsTo> :geardagas_entry .
+
+
+:in_geardagan_entry rdf:type owl:NamedIndividual ,ontolex:PrepositionPhrase ;
+                    <http://www.w3.org/ns/lemon/decomp#constituent> :geardagum_component;  
+					ontolex:sense [rdf:type ontolex:LexicalSense; 
+					dc:description "In [on] geardagum in days of yore"@en]; 
+					.
+:Th_16_11b a frac:Attestation ; 
+	frac:locus [dc:isPartOf :Codex_Exoniensis] ;
+	rdf:value "In [on] geardagum in days of yore[...] Th. 16, 11"@en. 
+:Cri_257 a frac:Attestation ; 
+	frac:locus [dc:isPartOf :Cri] ;
+	rdf:value "In [on] geardagum in days of yore[...] Cri. 251"@en.
+:Th_289_6 a frac:Attestation ; 
+	rdf:value "In [on] geardagum in days of yore[...] Th. 289, 6"@en.
+:Wand_44 a frac:Attestation ;  
+	rdf:value "In [on] geardagum in days of yore[...] Wand"@en.
+:Th_287_16 a frac:Attestation . 
+:Beo_Th_2 a frac:Attestation .
+:Exon_19_b a frac:Attestation; 
+	frac:locus [dc:isPartOf :Codex_Exoniensis] ; 
+	rdf:value "Scyle gumena gehwylc on his geardagum georne biþencan every man should in the days of his years well consider, Exon 19 b" .
+
+:Codex_Exoniensis a bibo:CollectedDocument; 
+			dc:title "Codex Exoniensis";
+			dc:description "A collection of Anglo-Saxon poetry from a MS. in the library of the Dean and Chapter of Exeter by Benjamin Thorpe, London, 1842.";
+			bibo:editor <https://viaf.org/viaf/66566155/#Thorpe,_Benjamin,_1782-1870> ;
+			bibo:place <https://dbpedia.org/resource/London> ;
+			bibo:time "1842".
+
+:Beo_Th a bibo:Book ;
+	dc:title "The Anglo-Saxon Poems of Beowulf"; 
+	bibo:place <https://dbpedia.org/resource/Oxford>;			
+	bibo:editor <https://viaf.org/viaf/66566155/#Thorpe,_Benjamin,_1782-1870> ;
+	bibo:time "1855".
+
+:Men a bibo:Book ;
+	dc:title "Menologium seu Calendarium Poeticum, ex Hickesiano Thesauro"; 
+	bibo:place <https://dbpedia.org/resource/London>;
+	bibo:editor <https://viaf.org/viaf/51775821/#Fox,_Samuel,_1801-1870>; 
+	bibo:time "1830".
+
+:Cd a bibo:Book;
+	dc:title "Caedmon's Metrical Paraphrase of parts of the Holy Scipture, in Anglo-Saxon";
+	bibo:editor <https://viaf.org/viaf/66566155/#Thorpe,_Benjamin,_1782-1870> ;
+	bibo:place <https://dbpedia.org/resource/London>;		
+	bibo:time "1832".
+	
+:Cri a bibo:DocumentPart; 
+	dc:title "Cynewulfs Crist";
+	dc:isPartOf :Codex_Exoniensis .
+
+:Wand a bibo:DocumentPart; 
+	dc:title "Wanderer";
+	dc:isPartOf :Codex_Exoniensis .
+
+
