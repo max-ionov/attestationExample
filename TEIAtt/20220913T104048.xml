@@ -1,99 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Title</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <listBibl xml:id="References">
-               <bibl xml:id="Exon_Th" type="corpus">
-                  <title>Codex Exoniensis</title>
-                  <note type="description" xml:lang="en">A collection of Anglo-Saxon poetry from a MS. in the library of the Dean and Chapter of Exeter by Benjamin Thorpe, London, 1842.
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Title</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<listBibl xml:id="References">
+					<bibl xml:id="Exon_Th" type="corpus">
+						<title>Codex Exoniensis</title>
+						<note type="description" xml:lang="en">A collection of Anglo-Saxon poetry from a MS. in the library of the Dean and Chapter of Exeter by Benjamin Thorpe, London, 1842.
 										Quoted at first by folio and by page and line, later by page and line</note>
-                </bibl>
-								<bibl xml:id="Beo_Th" type="corpus">
-									 <title>The Anglo-Saxon Poems of Beowulf</title>
-									 <editor>Benjamin Thorpe</editor>
-									 <placeName>Oxford</placeName>
-									 <date>1855</date>
-								 </bibl>
-								 <bibl xml:id="Men" type ="corpus">
-									 <title>Menologium</title>
-								</bibl>
-								<bibl xml:id="Men_Fox" type ="corpus">
-									<title>Menologium seu Calendarium Poeticum, ex Hickesiano Thesauro</title>
-									<editor>S. Fox</editor>
-									<placeName>London</placeName>
-									<date>1830</date>
-							 </bibl>
-							 <bibl xml:id="Cri" type ="corpus">
-								 <title>Cynewulfs Crist</title>
-								 <note type="description" xml:lang="en">from the Codex Exoniensis, p. 472</note>
-							</bibl>
-							<bibl xml:id="Wand" type ="corpus">
-								<title>Wanderer</title>
-								<note type="description" xml:lang="en">from the Codex Exoniensis, p. 286</note>
-						 </bibl>
-						 <bibl xml:id="Cd" type ="corpus">
-							 <title>Caedmon's Metrical Paraphrase of parts of the Holy Scipture, in Anglo-Saxon</title>
-							 <editor>Benjamin Thorpe</editor>
-							 <placeName>London</placeName>
-							 <date>1832</date>
-							 <note type="description" xml:lang="en">https://archive.org/details/caedmonsmetrica00thorgoog/</note>
-						</bibl>
-						 </listBibl>
-         </sourceDesc>
-      </fileDesc>
-  </teiHeader>
-  <text>
-      <body>
-					<entry>
-	 					<form>
-					  	<orth>geár-dagas</orth>
-	 					</form>
-						<gramGrp>
-							<number>pl.</number>
-							<gen>m.</gen>
-						</gramGrp>
-						<etym>[geár, dæg]</etym>
-						<sense>
-							<def>YORE-DAYS, days of yore, days of years, time of life; <cit type="translation" xml:lang="la"><q>dies antīqui, annōrum dies</q></cit></def>
-							<cit type="example">
-								<quote>In [on] geardagum</quote>
-								<bibl>Exon.11 b</bibl>
-								<bibl source="#Exon_Th">Th. 16, 11</bibl>
-								<bibl source="#Cri">Cri. 251 : 77 a</bibl>
-								<bibl source="#Exon_Th">Th. 289, 6</bibl>
-								<bibl source="#Wand"> Wand. 44 </bibl>
-								<bibl>Cd. 21</bibl>
-								<bibl source="#Cd">Th. 287, 16</bibl>
-								<bibl>Sat. 368</bibl>
-								<bibl source="#Beo_Th">Beo. Th. 2</bibl>
-								<bibl> B. 1 : 2712</bibl>
-								<bibl>B. 1354 : 4458</bibl>
-								<bibl>B. 2233</bibl>
-							</cit><cit type="translation" xml:lang="en"><quote>in days of yore</quote></cit>
-							<cit type="example"><quote>In geárdagan</quote><bibl source="#Men_Fox">Menol Fox 231</bibl><bibl source="#Men">Men. 117.</bibl></cit>
-							<cit type="example"><quote>Úre geárdagas</quote><cit type="translation" xml:lang="la"><q>dies annorum nostrorum</q></cit><bibl>Ps. Th. 89, 10</bibl></cit>
-							<cit type="example"><quote>Scyle gumena gehwylc on his geárdagum georne biþencan</quote></cit><cit type="translation" xml:lang ="en"><quote>every man should in the days of his years well consider</quote></cit>
-							<cit type="example"><bibl source ="#Exon_Th">Exon.19 b</bibl></cit>
-							<cit type="example"><bibl>Th. 51, 26</bibl></cit>
-							<cit type="example"><bibl>Cri. 822 : 61 a</bibl></cit>
-							<cit type="example"><bibl>Th. 225, 4; </bibl></cit>
-							<cit type="example"><bibl>Ph. 384</bibl></cit>
-							<cit type="example"><bibl>Elen. Grm. 1267 </bibl></cit>
-							<cit type="example"><bibl>L. Eth. vii. 24</bibl></cit>
-							<cit type="example"><bibl>Th. i. 334, 21. </bibl></cit>
+					</bibl>
+					<bibl xml:id="Beo_Th" type="corpus">
+						<title>The Anglo-Saxon Poems of Beowulf</title>
+						<editor>Benjamin Thorpe</editor>
+						<placeName>Oxford</placeName>
+						<date>1855</date>
+					</bibl>
+					<bibl xml:id="Men" type ="corpus">
+						<title>Menologium</title>
+					</bibl>
+					<bibl xml:id="Men_Fox" type ="corpus">
+						<title>Menologium seu Calendarium Poeticum, ex Hickesiano Thesauro</title>
+						<editor>S. Fox</editor>
+						<placeName>London</placeName>
+						<date>1830</date>
+					</bibl>
+					<bibl xml:id="Cri" type ="corpus">
+						<title>Cynewulfs Crist</title>
+						<note type="description" xml:lang="en">from the Codex Exoniensis, p. 472</note>
+					</bibl>
+					<bibl xml:id="Wand" type ="corpus">
+						<title>Wanderer</title>
+						<note type="description" xml:lang="en">from the Codex Exoniensis, p. 286</note>
+					</bibl>
+					<bibl xml:id="Cd" type ="corpus">
+						<title>Caedmon's Metrical Paraphrase of parts of the Holy Scipture, in Anglo-Saxon</title>
+						<editor>Benjamin Thorpe</editor>
+						<placeName>London</placeName>
+						<date>1832</date>
+						<note type="description" xml:lang="en">https://archive.org/details/caedmonsmetrica00thorgoog/</note>
+					</bibl>
+				</listBibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<entry>
+				<form>
+					<orth>geár-dagas</orth>
+				</form>
+				<gramGrp>
+					<number>pl.</number>
+					<gen>m.</gen>
+				</gramGrp>
+				<etym>[geár, dæg]</etym>
+				<sense>
+					<def>YORE-DAYS, days of yore, days of years, time of life; <cit type="translation" xml:lang="la">
+						<q>dies antīqui, annōrum dies</q>
+					</cit>
+				</def>
+				<cit type="example">
+					<quote>In [on] geardagum</quote>
+					<bibl>Exon.11 b</bibl>
+					<bibl source="#Exon_Th">Th. 16, 11</bibl>
+					<bibl source="#Cri">Cri. 251 : 77 a</bibl>
+					<bibl source="#Exon_Th">Th. 289, 6</bibl>
+					<bibl source="#Wand"> Wand. 44 </bibl>
+					<bibl>Cd. 21</bibl>
+					<bibl source="#Cd">Th. 287, 16</bibl>
+					<bibl>Sat. 368</bibl>
+					<bibl source="#Beo_Th">Beo. Th. 2</bibl>
+					<bibl> B. 1 : 2712</bibl>
+					<bibl>B. 1354 : 4458</bibl>
+					<bibl>B. 2233</bibl>
+				</cit>
+				<cit type="translation" xml:lang="en">
+					<quote>in days of yore</quote>
+				</cit>
+				<cit type="example">
+					<quote>In geárdagan</quote>
+					<bibl source="#Men_Fox">Menol Fox 231</bibl>
+					<bibl source="#Men">Men. 117.</bibl>
+				</cit>
+				<cit type="example">
+					<quote>Úre geárdagas</quote>
+					<cit type="translation" xml:lang="la">
+						<q>dies annorum nostrorum</q>
+					</cit>
+					<bibl>Ps. Th. 89, 10</bibl>
+				</cit>
+				<cit type="example">
+					<quote>Scyle gumena gehwylc on his geárdagum georne biþencan</quote>
+				</cit>
+				<cit type="translation" xml:lang ="en">
+					<quote>every man should in the days of his years well consider</quote>
+				</cit>
+				<cit type="example">
+					<bibl source ="#Exon_Th">Exon.19 b</bibl>
+				</cit>
+				<cit type="example">
+					<bibl>Th. 51, 26</bibl>
+				</cit>
+				<cit type="example">
+					<bibl>Cri. 822 : 61 a</bibl>
+				</cit>
+				<cit type="example">
+					<bibl>Th. 225, 4; </bibl>
+				</cit>
+				<cit type="example">
+					<bibl>Ph. 384</bibl>
+				</cit>
+				<cit type="example">
+					<bibl>Elen. Grm. 1267 </bibl>
+				</cit>
+				<cit type="example">
+					<bibl>L. Eth. vii. 24</bibl>
+				</cit>
+				<cit type="example">
+					<bibl>Th. i. 334, 21. </bibl>
+				</cit>
 							[Icel. í árdaga in days of yore. Cf. Gen. 47, 9, The days of the years of my pilgrimage are an hundred and thirty years.']
-						</sense>
-					</entry>
-      </body>
-  </text>
+			</sense>
+		</entry>
+	</body>
+</text>
 </TEI>
