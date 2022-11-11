@@ -64,28 +64,29 @@
 						</gramGrp>
 						<etym>[geár, dæg]</etym>
 						<sense>
-							<def>YORE-DAYS, days of yore, days of years, time of life; <cit type="translation" xml:lang="la"><q>dies antīqui, annōrum dies</q></cit></def>
-							<cit type="example"><quote>In [on] geardagum</quote></cit>
-							<cit type="translation" xml:lang="en"><quote>in days of yore</quote></cit>
-							<cit type="example"><bibl>Exon.11 b</bibl></cit>
-							<cit type="example"><bibl source="#Exon_Th">Th. 16, 11</bibl></cit>
-							<cit type="example"><bibl source="#Cri">Cri. 251 : 77 a</bibl></cit>
-							<cit type="example"><bibl source="#Exon_Th">Th. 289, 6</bibl></cit>
-							<cit type="example"><bibl source="#Wand"> Wand. 44 </bibl></cit>
-							<cit type="example"><bibl>Cd. 21</bibl></cit>
-							<cit type="example"><bibl source="#Cd">Th. 287, 16</bibl></cit>
-							<cit type="example"><bibl>Sat. 368</bibl></cit>
-							<cit type="example"><bibl source="#Beo_Th">Beo. Th. 2</bibl></cit>
-							<cit type="example"><bibl> B. 1 : 2712</bibl></cit>
-							<cit type="example"><bibl>B. 1354 : 4458</bibl></cit>
-							<cit type="example"><bibl>B. 2233</bibl></cit>
+							<def>YORE-DAYS, days of yore, days of years, time of life; </def><cit type="translation" xml:lang="la"><q>dies antīqui, annōrum dies</q></cit>
+							<cit type="example"><quote>In [on] geardagum</quote>
+								<cit type="translation" xml:lang="en"><quote>in days of yore</quote></cit>
+								<bibl>Exon.11 b</bibl>
+								<bibl source="#Exon_Th">Th. 16, 11</bibl>
+								<bibl source="#Cri">Cri. 251 : 77 a</bibl>
+								<bibl source="#Exon_Th">Th. 289, 6</bibl>
+								<bibl source="#Wand"> Wand. 44 </bibl>
+								<bibl>Cd. 21</bibl>
+								<bibl source="#Cd">Th. 287, 16</bibl>
+								<bibl>Sat. 368</bibl>
+								<bibl source="#Beo_Th">Beo. Th. 2</bibl>
+								<bibl> B. 1 : 2712</bibl>
+								<bibl>B. 1354 : 4458</bibl>
+								<bibl>B. 2233</bibl>
+							</cit>
 							<cit type="example"><quote>In geárdagan</quote><bibl source="#Men_Fox">Menol Fox 231</bibl><bibl source="#Men">Men. 117.</bibl></cit>
-							<cit type="example"><quote>Úre geárdagas</quote></cit>
-							<cit type="translation" xml:lang="la"><q>dies annorum nostrorum</q></cit>
+							<cit type="example"><quote>Úre geárdagas</quote><cit type="translation" xml:lang="la"><q>dies annorum nostrorum</q></cit></cit>
 							<cit type="example"><bibl>Ps. Th. 89, 10</bibl></cit>
-							<cit type="example"><quote>Scyle gumena gehwylc on his geárdagum georne biþencan</quote></cit>
-							<cit type="translation" xml:lang ="en"><quote>every man should in the days of his years well consider</quote></cit>
-							<cit type="example"><bibl source ="#Exon_Th">Exon.19 b</bibl></cit>
+							<cit type="example"><quote>Scyle gumena gehwylc on his geárdagum georne biþencan</quote>
+								<cit type="translation" xml:lang ="en"><quote>every man should in the days of his years well consider</quote></cit>
+								<bibl source ="#Exon_Th">Exon.19 b</bibl>
+							</cit>
 							<cit type="example"><bibl>Th. 51, 26</bibl></cit>
 							<cit type="example"><bibl>Cri. 822 : 61 a</bibl></cit>
 							<cit type="example"><bibl>Th. 225, 4; </bibl></cit>
