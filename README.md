@@ -77,3 +77,11 @@ Such additional information may be available in the Linked Data Cloud.
 By using RDF, we can very easily take advantages of additional information available in the cloud.
 
 NOTE: in the resulting RDF, such description of cited work will certainly not be present, but an external URI will be used.
+
+#### Why should we add redundant data in RDFa
+
+One could validly ask why we should bother adding RDFa annotation to the TEI file when the data is already available in TEI. There are several reasons for this:
+
+1. The TEI+RDFa file can be seen as a metamorphic file that can be processed by any XML/TEI tools AND RDF tools, without any tool to be tweaked or adapted. Hence, explicitly annotating data with RDFa allows for the use of RDF based tools without any further action.
+2. Even if the data itself is already available in TEI, there is no particular reasons why RDF structure should follow the TEI one. Indeed, the RDF structure could be a full graph or a tree that does not span on the TEI tree structure.
+3. The TEI encoding will usually annotate values as they where given in the original data (e.g. the string 'pl.' will be annotated as a number element). Determining the exact meaning of this value will be delegated to further tools in the data pipeline if necessary. In RDF, there is a tendency to avoid such "local" encodings and a will to standardize such values. Hence, it is possible in RDF to map the original value 'pl.' to the shared entity 'lexinfo:plural' that is fully defined in the LOD cloud.

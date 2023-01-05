@@ -57,7 +57,7 @@
     <text>
         <body>
             <entry resource=":geardagas_entry" typeof="ontolex:Word">
-                <seg rel="lexinfo:partOfSpeech" href="lexinfo:commonNoun"/>
+                <span rel="lexinfo:partOfSpeech" href="lexinfo:commonNoun"/><!-- This is additional data-->
                 <form>
                     <orth>geár-dagas</orth>
                 </form>
