@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "xslt",
+			"label": "Add RDFa",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/TEIAtt/addRDFa.xsl",
+			"xmlSource": "${file}",
+			"resultPath": "${fileDirname}/${fileBasenameNoExtension}-rdfa.xml",
+			"allowSyntaxExtensions40": "off",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		}
+	]
+}
