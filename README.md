@@ -35,9 +35,9 @@ Redundant data in RDF may be obtained by an XSLT that adds RDFa annotation to th
 RDF only data can be added to the resulting file subsequently.
 
 ```mermaid
-  graph LR;
-      A[TEI] -->|XSLT| B[TEI+RDFa (redundant info)];
-      B-->|manual| C[TEI+RDFa (with RDF specific data)];
+graph LR;
+      A[TEI] -->|XSLT| B[TEI+RDFa 1];
+       B-->|manual| C[TEI+RDFa 2];
 ```
 
 ### Some elements available in the files
