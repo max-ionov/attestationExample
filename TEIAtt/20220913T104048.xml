@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Title</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <listBibl xml:id="References">
-               <bibl xml:id="Exon_Th" type="corpus">
-                  <title>Codex Exoniensis</title>
-                  <note type="description" xml:lang="en">A collection of Anglo-Saxon poetry from a MS. in the library of the Dean and Chapter of Exeter by Benjamin Thorpe, London, 1842.
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Title</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<listBibl xml:id="References">
+					<bibl xml:id="Exon_Th" type="corpus">
+						<title>Codex Exoniensis</title>
+						<note type="description" xml:lang="en">A collection of Anglo-Saxon poetry from a MS. in the library of the Dean and Chapter of Exeter by Benjamin Thorpe, London, 1842.
 										Quoted at first by folio and by page and line, later by page and line</note>
                 </bibl>
 								<bibl xml:id="Beo_Th" type="corpus">
@@ -95,8 +94,8 @@
 							<cit type="example"><bibl>L. Eth. vii. 24</bibl></cit>
 							<cit type="example"><bibl>Th. i. 334, 21. </bibl></cit>
 							[Icel. í árdaga in days of yore. Cf. Gen. 47, 9, The days of the years of my pilgrimage are an hundred and thirty years.']
-						</sense>
-					</entry>
-      </body>
-  </text>
+			</sense>
+		</entry>
+	</body>
+</text>
 </TEI>

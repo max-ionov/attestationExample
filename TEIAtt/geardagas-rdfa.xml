@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:att="http://www.semanticweb.org/fahadkhan/ontologies/2022/8/geardagas_entry#" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:dc="http://purl.org/dc/terms/" xmlns:frac="http://www.w3.org/ns/lemon/frac#" xmlns:lexinfo="http://www.lexinfo.net/ontology/3.0/lexinfo#" xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Title</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<listBibl xml:id="References">
+					<bibl resource="att:Exon_Th" xml:id="Exon_Th" type="corpus">
+						<title property="dc:title">Codex Exoniensis</title>
+						<note type="description" xml:lang="en">A collection of Anglo-Saxon poetry
+							from a MS. in the library of the Dean and Chapter of Exeter by Benjamin
+							Thorpe, London, 1842. Quoted at first by folio and by page and line,
+							later by page and line</note>
+					</bibl>
+					<bibl resource="att:Beo_Th" xml:id="Beo_Th" type="corpus">
+						<title property="dc:title">The Anglo-Saxon Poems of Beowulf</title>
+						<editor>Benjamin Thorpe</editor>
+						<placeName>Oxford</placeName>
+						<date>1855</date>
+					</bibl>
+					<bibl resource="att:Men" xml:id="Men" type="corpus">
+						<title property="dc:title">Menologium</title>
+					</bibl>
+					<bibl resource="att:Men_Fox" xml:id="Men_Fox" type="corpus">
+						<title property="dc:title">Menologium seu Calendarium Poeticum, ex Hickesiano Thesauro</title>
+						<editor>S. Fox</editor>
+						<placeName>London</placeName>
+						<date>1830</date>
+					</bibl>
+					<bibl resource="att:Cri" xml:id="Cri" type="corpus">
+						<title property="dc:title">Cynewulfs Crist</title>
+						<note type="description" xml:lang="en">from the Codex Exoniensis, p. 472</note>
+					</bibl>
+					<bibl resource="att:Wand" xml:id="Wand" type="corpus">
+						<title property="dc:title">Wanderer</title>
+						<note type="description" xml:lang="en">from the Codex Exoniensis, p. 286</note>
+					</bibl>
+					<bibl resource="att:Cd" xml:id="Cd" type="corpus">
+						<title property="dc:title">Caedmon's Metrical Paraphrase of parts of the Holy Scipture, in
+							Anglo-Saxon</title>
+						<editor>Benjamin Thorpe</editor>
+						<placeName>London</placeName>
+						<date>1832</date>
+						<note type="description" xml:lang="en">
+							https://archive.org/details/caedmonsmetrica00thorgoog/</note>
+					</bibl>
+				</listBibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<entry about="att:ge%C3%A1r-dagas_entry" typeof="ontolex:LexicalEntry">
+				<form>
+					<orth>geár-dagas</orth>
+				</form>
+				<gramGrp>
+					<number rel="lexinfo:number" href="lexinfo:plural">pl.</number>
+					<gen rel="lexinfo:gender" href="lexinfo:masculine">m.</gen>
+				</gramGrp>
+				<etym>[geár, dæg]</etym>
+				<sense resource="att:ge%C3%A1r-dagas_sense_1" rel="ontolex:sense" typeof="ontolex:LexicalSense">
+					<def property="dc:description" datatype="plaintext">YORE-DAYS, days of yore, days of years, time of life; </def>
+					<cit property="dc:description" datatype="plaintext" type="translation" xml:lang="la">
+						<q>dies antīqui, annōrum dies</q>
+					</cit>
+					<cit type="example">
+						<quote>In [on] geardagum</quote>
+						<cit type="translation" xml:lang="en">
+							<quote>in days of yore</quote>
+						</cit>
+						<bibl>Exon.11 b</bibl>
+						<bibl resource="att:att:ge%C3%A1r-dagas_sense_1_Att_2_2" rel="frac:attestation" typeof="frac:Attestation" source="#Exon_Th"><span rel="frac:locus"><span property="dc:isPartOf" resource="att:Exon_Th"/></span><span property="rdf:value">Th. 16, 11</span></bibl>
+						<bibl resource="att:att:ge%C3%A1r-dagas_sense_1_Att_2_3" rel="frac:attestation" typeof="frac:Attestation" source="#Cri"><span rel="frac:locus"><span property="dc:isPartOf" resource="att:Cri"/></span><span property="rdf:value">Cri. 251 : 77 a</span></bibl>
+						<bibl resource="att:att:ge%C3%A1r-dagas_sense_1_Att_2_4" rel="frac:attestation" typeof="frac:Attestation" source="#Exon_Th"><span rel="frac:locus"><span property="dc:isPartOf" resource="att:Exon_Th"/></span><span property="rdf:value">Th. 289, 6</span></bibl>
+						<bibl resource="att:att:ge%C3%A1r-dagas_sense_1_Att_2_5" rel="frac:attestation" typeof="frac:Attestation" source="#Wand"><span rel="frac:locus"><span property="dc:isPartOf" resource="att:Wand"/></span><span property="rdf:value"> Wand. 44 </span></bibl>
+						<bibl>Cd. 21</bibl>
+						<bibl resource="att:att:ge%C3%A1r-dagas_sense_1_Att_2_7" rel="frac:attestation" typeof="frac:Attestation" source="#Cd"><span rel="frac:locus"><span property="dc:isPartOf" resource="att:Cd"/></span><span property="rdf:value">Th. 287, 16</span></bibl>
+						<bibl>Sat. 368</bibl>
+						<bibl resource="att:att:ge%C3%A1r-dagas_sense_1_Att_2_9" rel="frac:attestation" typeof="frac:Attestation" source="#Beo_Th"><span rel="frac:locus"><span property="dc:isPartOf" resource="att:Beo_Th"/></span><span property="rdf:value">Beo. Th. 2</span></bibl>
+						<bibl> B. 1 : 2712</bibl>
+						<bibl>B. 1354 : 4458</bibl>
+						<bibl>B. 2233</bibl>
+					</cit>
+					<cit type="example">
+						<quote>In geárdagan</quote>
+						<bibl resource="att:att:ge%C3%A1r-dagas_sense_1_Att_3_1" rel="frac:attestation" typeof="frac:Attestation" source="#Men_Fox"><span rel="frac:locus"><span property="dc:isPartOf" resource="att:Men_Fox"/></span><span property="rdf:value">Menol Fox 231</span></bibl>
+						<bibl resource="att:att:ge%C3%A1r-dagas_sense_1_Att_3_2" rel="frac:attestation" typeof="frac:Attestation" source="#Men"><span rel="frac:locus"><span property="dc:isPartOf" resource="att:Men"/></span><span property="rdf:value">Men. 117.</span></bibl>
+					</cit>
+					<cit type="example">
+						<quote>Úre geárdagas</quote>
+						<cit type="translation" xml:lang="la">
+							<q>dies annorum nostrorum</q>
+						</cit>
+					</cit>
+					<cit type="example">
+						<bibl>Ps. Th. 89, 10</bibl>
+					</cit>
+					<cit type="example">
+						<quote>Scyle gumena gehwylc on his geárdagum georne biþencan</quote>
+						<cit type="translation" xml:lang="en">
+							<quote>every man should in the days of his years well consider</quote>
+						</cit>
+						<bibl resource="att:att:ge%C3%A1r-dagas_sense_1_Att_6_1" rel="frac:attestation" typeof="frac:Attestation" source="#Exon_Th"><span rel="frac:locus"><span property="dc:isPartOf" resource="att:Exon_Th"/></span><span property="rdf:value">Exon.19 b</span></bibl>
+					</cit>
+					<cit type="example">
+						<bibl>Th. 51, 26</bibl>
+					</cit>
+					<cit type="example">
+						<bibl>Cri. 822 : 61 a</bibl>
+					</cit>
+					<cit type="example">
+						<bibl>Th. 225, 4; </bibl>
+					</cit>
+					<cit type="example">
+						<bibl>Ph. 384</bibl>
+					</cit>
+					<cit type="example">
+						<bibl>Elen. Grm. 1267 </bibl>
+					</cit>
+					<cit type="example">
+						<bibl>L. Eth. vii. 24</bibl>
+					</cit>
+					<cit type="example">
+						<bibl>Th. i. 334, 21. </bibl>
+					</cit> [Icel. í árdaga in
+					days of yore. Cf. Gen. 47, 9, The days of the years of my pilgrimage are an
+					hundred and thirty years.'] </sense>
+			</entry>
+		</body>
+	</text>
+</TEI>
