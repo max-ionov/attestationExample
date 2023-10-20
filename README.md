@@ -1,6 +1,6 @@
 # attestationExample
 
-Examples of attestations in various formats
+Examples of attestations in various formats: data accompanying an LREC-2024 submission
 
 ## Notes concerning TEI + RDFa encoding
 
@@ -26,7 +26,7 @@ TEI is used to tag the tree structure of the entry and RDFa is used to embed RDF
 
 1. There is data that is redundant and available in both files. This is mainly the structure of the entry.
 2. There is data that is available in TEI only form. This is mainly the fine editorial data that is obtained by tagging all parts of the original entry.
-3. There is data that is available only in RDF format. That is mainly references to external entities (e.g. the books, corpora, etc. entities that are supposed to be described externally). WHAT ELSE ?
+3. There is data that is available only in RDF format. That is mainly references to external entities (e.g. the books, corpora, etc. entities that are supposed to be described externally).
 
 Data in TEI is given (TEI only and redundant data).
 
