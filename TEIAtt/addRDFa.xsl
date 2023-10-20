@@ -129,7 +129,7 @@
         <xsl:copy>
             <xsl:namespace name="ontolex">http://www.w3.org/ns/lemon/ontolex#</xsl:namespace>
             <xsl:namespace name="lexinfo">http://www.lexinfo.net/ontology/3.0/lexinfo#</xsl:namespace>
-            <xsl:namespace name="att">http://www.semanticweb.org/fahadkhan/ontologies/2022/8/geardagas_entry#</xsl:namespace>
+            <xsl:namespace name="att">http://www.semanticweb.org/ontologies/geardagas_entry#</xsl:namespace>
             <xsl:namespace name="dc">http://purl.org/dc/terms/</xsl:namespace>
             <xsl:namespace name="frac">http://www.w3.org/ns/lemon/frac#</xsl:namespace>
             <xsl:namespace name="bibo">http://purl.org/ontology/bibo/</xsl:namespace>
