@@ -20,15 +20,15 @@
 
 ###  Main Entry
 :geardagas_entry rdf:type ontolex:Word ;
-				lexinfo:partOfSpeech lexinfo:commonNoun ;
-				lexinfo:gender lexinfo:masculine ;
-				lexinfo:number lexinfo:plural ; 
-				ontolex:sense :geardagas_sense .
+        lexinfo:partOfSpeech lexinfo:commonNoun ;
+        lexinfo:gender lexinfo:masculine ;
+        lexinfo:number lexinfo:plural ; 
+        ontolex:sense :geardagas_sense .
 
 
 :geardagas_sense rdf:type ontolex:LexicalSense ; 
-				dc:description "YORE-DAYS, days of yore, days of years, time of life; dies antiqui, annorum dies"@en ;
-				frac:attestation :Th_16_11b, :Cri_257, :Th_289_6, :Wand_44, :Th_287_16, :Beo_Th, :Exon_19_b .
+        dc:description "YORE-DAYS, days of yore, days of years, time of life; dies antiqui, annorum dies"@en ;
+        frac:attestation :Th_16_11b, :Cri_257, :Th_289_6, :Wand_44, :Th_287_16, :Beo_Th, :Exon_19_b .
 
 
 :geardagum_component rdf:type owl:NamedIndividual , ontolex:Component ;
@@ -37,56 +37,56 @@
 
 :in_geardagan_entry rdf:type owl:NamedIndividual ,ontolex:PrepositionPhrase ;
                     <http://www.w3.org/ns/lemon/decomp#constituent> :geardagum_component;  
-					ontolex:sense [rdf:type ontolex:LexicalSense; 
-					dc:description "In [on] geardagum in days of yore"@en]; 
-					.
+          ontolex:sense [rdf:type ontolex:LexicalSense; 
+          dc:description "In [on] geardagum in days of yore"@en]; 
+          .
 :Th_16_11b a frac:Attestation ; 
-	frac:locus [dc:isPartOf :Codex_Exoniensis] ;
-	rdf:value "In [on] geardagum in days of yore[...] Th. 16, 11"@en. 
+  frac:locus [dc:isPartOf :Codex_Exoniensis] ;
+  rdf:value "In [on] geardagum in days of yore[...] Th. 16, 11"@en. 
 :Cri_257 a frac:Attestation ; 
-	frac:locus [dc:isPartOf :Cri] ;
-	rdf:value "In [on] geardagum in days of yore[...] Cri. 251"@en.
+  frac:locus [dc:isPartOf :Cri] ;
+  rdf:value "In [on] geardagum in days of yore[...] Cri. 251"@en.
 :Th_289_6 a frac:Attestation ; 
-	rdf:value "In [on] geardagum in days of yore[...] Th. 289, 6"@en.
+  rdf:value "In [on] geardagum in days of yore[...] Th. 289, 6"@en.
 :Wand_44 a frac:Attestation ;  
-	rdf:value "In [on] geardagum in days of yore[...] Wand"@en.
+  rdf:value "In [on] geardagum in days of yore[...] Wand"@en.
 :Th_287_16 a frac:Attestation . 
 :Beo_Th_2 a frac:Attestation .
 :Exon_19_b a frac:Attestation; 
-	frac:locus [dc:isPartOf :Codex_Exoniensis] ; 
-	rdf:value "Scyle gumena gehwylc on his geardagum georne biþencan every man should in the days of his years well consider, Exon 19 b" .
+  frac:locus [dc:isPartOf :Codex_Exoniensis] ; 
+  rdf:value "Scyle gumena gehwylc on his geardagum georne biþencan every man should in the days of his years well consider, Exon 19 b" .
 
 :Codex_Exoniensis a bibo:CollectedDocument; 
-			dc:title "Codex Exoniensis";
-			dc:description "A collection of Anglo-Saxon poetry from a MS. in the library of the Dean and Chapter of Exeter by Benjamin Thorpe, London, 1842.";
-			bibo:editor <https://viaf.org/viaf/66566155/#Thorpe,_Benjamin,_1782-1870> ;
-			bibo:place <https://dbpedia.org/resource/London> ;
-			bibo:time "1842".
+      dc:title "Codex Exoniensis";
+      dc:description "A collection of Anglo-Saxon poetry from a MS. in the library of the Dean and Chapter of Exeter by Benjamin Thorpe, London, 1842.";
+      bibo:editor <https://viaf.org/viaf/66566155/#Thorpe,_Benjamin,_1782-1870> ;
+      bibo:place <https://dbpedia.org/resource/London> ;
+      bibo:time "1842".
 
 :Beo_Th a bibo:Book ;
-	dc:title "The Anglo-Saxon Poems of Beowulf"; 
-	bibo:place <https://dbpedia.org/resource/Oxford>;			
-	bibo:editor <https://viaf.org/viaf/66566155/#Thorpe,_Benjamin,_1782-1870> ;
-	bibo:time "1855".
+  dc:title "The Anglo-Saxon Poems of Beowulf"; 
+  bibo:place <https://dbpedia.org/resource/Oxford>;     
+  bibo:editor <https://viaf.org/viaf/66566155/#Thorpe,_Benjamin,_1782-1870> ;
+  bibo:time "1855".
 
 :Men a bibo:Book ;
-	dc:title "Menologium seu Calendarium Poeticum, ex Hickesiano Thesauro"; 
-	bibo:place <https://dbpedia.org/resource/London>;
-	bibo:editor <https://viaf.org/viaf/51775821/#Fox,_Samuel,_1801-1870>; 
-	bibo:time "1830".
+  dc:title "Menologium seu Calendarium Poeticum, ex Hickesiano Thesauro"; 
+  bibo:place <https://dbpedia.org/resource/London>;
+  bibo:editor <https://viaf.org/viaf/51775821/#Fox,_Samuel,_1801-1870>; 
+  bibo:time "1830".
 
 :Cd a bibo:Book;
-	dc:title "Caedmon's Metrical Paraphrase of parts of the Holy Scipture, in Anglo-Saxon";
-	bibo:editor <https://viaf.org/viaf/66566155/#Thorpe,_Benjamin,_1782-1870> ;
-	bibo:place <https://dbpedia.org/resource/London>;		
-	bibo:time "1832".
-	
+  dc:title "Caedmon's Metrical Paraphrase of parts of the Holy Scipture, in Anglo-Saxon";
+  bibo:editor <https://viaf.org/viaf/66566155/#Thorpe,_Benjamin,_1782-1870> ;
+  bibo:place <https://dbpedia.org/resource/London>;   
+  bibo:time "1832".
+  
 :Cri a bibo:DocumentPart; 
-	dc:title "Cynewulfs Crist";
-	dc:isPartOf :Codex_Exoniensis .
+  dc:title "Cynewulfs Crist";
+  dc:isPartOf :Codex_Exoniensis .
 
 :Wand a bibo:DocumentPart; 
-	dc:title "Wanderer";
-	dc:isPartOf :Codex_Exoniensis .
+  dc:title "Wanderer";
+  dc:isPartOf :Codex_Exoniensis .
 
 
