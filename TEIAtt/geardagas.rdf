@@ -23,12 +23,12 @@
 				lexinfo:partOfSpeech lexinfo:commonNoun ;
 				lexinfo:gender lexinfo:masculine ;
 				lexinfo:number lexinfo:plural ; 
-				frac:attestation :Th_16_11b, :Cri_257, :Th_289_6, :Wand_44, :Th_287_16, :Beo_Th, :Exon_19_b; 
-                ontolex:sense :geardagas_sense .
+				ontolex:sense :geardagas_sense .
 
 
 :geardagas_sense rdf:type ontolex:LexicalSense ; 
-				dc:description "YORE-DAYS, days of yore, days of years, time of life; dies antiqui, annorum dies"@en.
+				dc:description "YORE-DAYS, days of yore, days of years, time of life; dies antiqui, annorum dies"@en ;
+				frac:attestation :Th_16_11b, :Cri_257, :Th_289_6, :Wand_44, :Th_287_16, :Beo_Th, :Exon_19_b .
 
 
 :geardagum_component rdf:type owl:NamedIndividual , ontolex:Component ;
