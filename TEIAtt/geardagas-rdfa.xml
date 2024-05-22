@@ -54,7 +54,7 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <text>
+    <text prefix="ontolex: http://www.w3.org/ns/lemon/ontolex# lexinfo: http://www.lexinfo.net/ontology/2.0/lexinfo# frac: https://github.com/ontolex/frequency-attestation-corpus-information/">
         <body>
             <entry resource=":geardagas_entry" typeof="ontolex:Word">
                 <span rel="lexinfo:partOfSpeech" href="lexinfo:commonNoun"/><!-- This is additional data-->
