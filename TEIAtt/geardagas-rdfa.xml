@@ -58,8 +58,8 @@
         <body>
             <entry resource=":geardagas_entry" typeof="ontolex:Word">
                 <span rel="lexinfo:partOfSpeech" href="lexinfo:commonNoun"/><!-- This is additional data-->
-                <form>
-                    <orth>geár-dagas</orth>
+                <form rel="ontolex:canonicalForm" resource=":geardagas_form" typeof="ontolex:Form">
+                    <orth property="ontolex:writtenRep">geár-dagas</orth>
                 </form>
                 <!-- Really not sure we have to encode the gender/number information in RDF while it is already 
                 available in TEI. Only reason being standardizing property/value -->
